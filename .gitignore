@@ -1,5 +1,29 @@
-# Ignore Gradle project-specific cache directory
-.gradle
+# Gradle関連
+.gradle/
+build/
+out/
 
-# Ignore Gradle build output directory
-build
+# IDE関連
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# ログとキャッシュ
+logs/
+*.log
+
+# システムファイル
+.DS_Store
+Thumbs.db
+
+# 依存関係
+lib/
+*.jar
+*.war
+*.ear
+
+# 環境変数や機密情報
+.env
+*.key
+*.pem
